@@ -40,7 +40,7 @@ useEffect(()=>{
       : data.map(ele => <Card key={ele.id} element={ele} del={removeItem}/>)
     }  
     <Moveable flushSync={flushSync}
-            target={target}
+            target={document.querySelector(".target")}
             pinchable={true}
             pinchOutside={true}
             checkInput={true}
