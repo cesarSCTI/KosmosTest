@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: #ececec 4px 4px 4px;
+}
+.card img{
+    flex:1;
+    min-width: 300px;
+    min-height: 300px;
+}
+.cardImg{
+    object-fit: cover;
+}
+.target {
+    position: absolute;
+}
+.target2 {
+    top: 150px;
+    left: 100px;
+}
+.target3 {
+    top: 150px;
+    left: 700px;
+}
+.delete{
+    background:red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+    border-radius:350px;
+    color:#fff;
+    margin: 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.delete:hover{
+    background-color: brown;
+}
